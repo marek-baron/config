@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1761161594">
-  <project timestamp="1761161594">
+<coverage generated="1761163477">
+  <project timestamp="1761163477">
     <file name="/app/src/Config/Config.php">
       <class name="MarekBaron\Config\Config" namespace="global">
         <metrics complexity="23" methods="12" coveredmethods="10" conditionals="0" coveredconditionals="0" statements="38" coveredstatements="35" elements="50" coveredelements="45"/>
