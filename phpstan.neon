@@ -1,0 +1,10 @@
+parameters:
+    excludePaths:
+        - vendor/
+
+    bootstrapFiles:
+    level: 3
+
+    paths:
+        - src
+        - test

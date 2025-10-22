@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1761161594">
+  <project timestamp="1761161594">
+    <file name="/app/src/Config/Config.php">
+      <class name="MarekBaron\Config\Config" namespace="global">
+        <metrics complexity="23" methods="12" coveredmethods="10" conditionals="0" coveredconditionals="0" statements="38" coveredstatements="35" elements="50" coveredelements="45"/>
+      </class>
+      <line num="18" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="9"/>
+      <line num="20" type="stmt" count="9"/>
+      <line num="23" type="method" name="get" visibility="public" complexity="7" crap="7.18" count="6"/>
+      <line num="25" type="stmt" count="6"/>
+      <line num="26" type="stmt" count="0"/>
+      <line num="29" type="stmt" count="6"/>
+      <line num="30" type="stmt" count="5"/>
+      <line num="31" type="stmt" count="5"/>
+      <line num="33" type="stmt" count="5"/>
+      <line num="34" type="stmt" count="5"/>
+      <line num="35" type="stmt" count="1"/>
+      <line num="38" type="stmt" count="4"/>
+      <line num="41" type="stmt" count="4"/>
+      <line num="44" type="stmt" count="2"/>
+      <line num="45" type="stmt" count="2"/>
+      <line num="48" type="stmt" count="0"/>
+      <line num="51" type="method" name="has" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="53" type="stmt" count="1"/>
+      <line num="57" type="method" name="with" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="59" type="stmt" count="1"/>
+      <line num="60" type="stmt" count="1"/>
+      <line num="61" type="stmt" count="1"/>
+      <line num="64" type="method" name="current" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="66" type="stmt" count="1"/>
+      <line num="69" type="method" name="next" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="71" type="stmt" count="1"/>
+      <line num="74" type="method" name="key" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="76" type="stmt" count="1"/>
+      <line num="79" type="method" name="valid" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="81" type="stmt" count="1"/>
+      <line num="84" type="method" name="rewind" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="86" type="stmt" count="1"/>
+      <line num="89" type="method" name="count" visibility="public" complexity="1" crap="1" count="1"/>
+      <line num="91" type="stmt" count="1"/>
+      <line num="94" type="method" name="toArray" visibility="public" complexity="3" crap="3.03" count="1"/>
+      <line num="96" type="stmt" count="1"/>
+      <line num="97" type="stmt" count="1"/>
+      <line num="99" type="stmt" count="1"/>
+      <line num="100" type="stmt" count="1"/>
+      <line num="101" type="stmt" count="0"/>
+      <line num="103" type="stmt" count="1"/>
+      <line num="107" type="stmt" count="1"/>
+      <line num="113" type="method" name="setNestedValue" visibility="private" complexity="4" crap="4" count="1"/>
+      <line num="115" type="stmt" count="1"/>
+      <line num="116" type="stmt" count="1"/>
+      <line num="118" type="stmt" count="1"/>
+      <line num="119" type="stmt" count="1"/>
+      <line num="120" type="stmt" count="1"/>
+      <line num="122" type="stmt" count="1"/>
+      <line num="125" type="stmt" count="1"/>
+      <metrics loc="128" ncloc="119" classes="1" methods="12" coveredmethods="10" conditionals="0" coveredconditionals="0" statements="38" coveredstatements="35" elements="50" coveredelements="45"/>
+    </file>
+    <file name="/app/src/Config/ConfigAggregator.php">
+      <class name="MarekBaron\Config\ConfigAggregator" namespace="global">
+        <metrics complexity="6" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="16" elements="18" coveredelements="18"/>
+      </class>
+      <line num="20" type="method" name="__construct" visibility="public" complexity="1" crap="1" count="4"/>
+      <line num="22" type="stmt" count="4"/>
+      <line num="25" type="method" name="load" visibility="public" complexity="5" crap="5" count="4"/>
+      <line num="27" type="stmt" count="4"/>
+      <line num="29" type="stmt" count="4"/>
+      <line num="30" type="stmt" count="3"/>
+      <line num="31" type="stmt" count="4"/>
+      <line num="32" type="stmt" count="4"/>
+      <line num="33" type="stmt" count="3"/>
+      <line num="34" type="stmt" count="2"/>
+      <line num="35" type="stmt" count="1"/>
+      <line num="36" type="stmt" count="1"/>
+      <line num="37" type="stmt" count="1"/>
+      <line num="38" type="stmt" count="3"/>
+      <line num="40" type="stmt" count="3"/>
+      <line num="41" type="stmt" count="1"/>
+      <line num="44" type="stmt" count="2"/>
+      <line num="47" type="stmt" count="2"/>
+      <metrics loc="50" ncloc="44" classes="1" methods="2" coveredmethods="2" conditionals="0" coveredconditionals="0" statements="16" coveredstatements="16" elements="18" coveredelements="18"/>
+    </file>
+    <file name="/app/src/Config/ConfigInterface.php">
+      <metrics loc="24" ncloc="18" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <file name="/app/src/Config/ConfigProviderInterface.php">
+      <metrics loc="22" ncloc="12" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
+    </file>
+    <metrics files="4" loc="224" ncloc="193" classes="2" methods="14" coveredmethods="12" conditionals="0" coveredconditionals="0" statements="54" coveredstatements="51" elements="68" coveredelements="63"/>
+  </project>
+</coverage>

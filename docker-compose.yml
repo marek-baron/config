@@ -1,0 +1,8 @@
+services:
+  dev:
+    build: .
+    container_name: config-dev
+    working_dir: /app
+    volumes:
+      - .:/app
+    tty: true

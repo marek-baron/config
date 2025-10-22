@@ -1,0 +1,12 @@
+/docker-compose.yml export-ignore
+/Dockerfile export-ignore
+/.env export-ignore
+/.env.example export-ignore
+/.docker export-ignore
+/.vscode export-ignore
+/.idea export-ignore
+/test export-ignore
+/phpunit.xml export-ignore
+/phpcs.xml export-ignore
+/phpstan.neon export-ignore
+/.github export-ignore
