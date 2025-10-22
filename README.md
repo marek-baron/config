@@ -2,7 +2,7 @@
 [![CI](https://github.com/marek-baron/config/actions/workflows/ci.yml/badge.svg)](https://github.com/marek-baron/config/actions)
 
 
-Lightweight, dependency-free PHP configuration library with dot-notation access, immutable updates, and simple provider aggregation.
+Lightweight, dependency-free PHP configuration library.
 
 ## Features
 
