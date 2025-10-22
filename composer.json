@@ -1,8 +1,8 @@
 {
   "name": "marek-baron/config",
-  "version": "0.0.1",
   "description": "Lightweight PHP configuration library.",
   "type": "library",
+  "license": "MIT",
   "require": {
     "php": "^8.1"
   },
