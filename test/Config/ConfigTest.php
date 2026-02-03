@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace MarekBaron\Test\Config;
 
+use InvalidArgumentException;
 use MarekBaron\Config\Config;
 use MarekBaron\Config\ConfigInterface;
 use PHPUnit\Framework\TestCase;
@@ -67,5 +68,27 @@ class ConfigTest extends TestCase
         $array = $this->config->toArray();
         self::assertSame(3306, $array['db']['port']);
         self::assertIsArray($array['nested']);
+    }
+
+    public function testDefaultIsReturnedIfFlatKeyMissing(): void
+    {
+        self::assertSame('fallback', $this->config->get('nope', 'fallback'));
+        self::assertNull($this->config->get('nope')); // default null
+    }
+
+    public function testThrowsOnEmptyKey(): void
+    {
+        $this->expectException(InvalidArgumentException::class);
+        $this->config->get('');
+    }
+
+    public function testToArrayRecursesIntoNestedConfigObjects(): void
+    {
+        $cfg = new Config([
+            'child' => new Config(['x' => 1]),
+        ]);
+
+        $array = $cfg->toArray();
+        self::assertSame(['child' => ['x' => 1]], $array);
     }
 }

@@ -22,8 +22,8 @@ class Config implements ConfigInterface
 
     public function get(string $name, mixed $default = null): mixed
     {
-        if (empty($name)) {
-            return $this->config;
+        if ($name === '') {
+            throw new \InvalidArgumentException('Config key must not be empty.');
         }
 
         if (str_contains($name, '.')) {
@@ -45,7 +45,7 @@ class Config implements ConfigInterface
             return $this->config[$name] ?? $default;
         }
 
-        return $this->config;
+        return $default;
     }
 
     public function has(string $name): bool

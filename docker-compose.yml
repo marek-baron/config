@@ -1,8 +1,12 @@
 services:
-  dev:
-    build: .
+  config-dev:
+    build:
+      context: .
+      args:
+        UID: ${UID:-1000}
+        GID: ${GID:-1000}
+    user: www-data
     container_name: config-dev
-    working_dir: /app
     volumes:
-      - .:/app
+      - .:/var/www/html
     tty: true
